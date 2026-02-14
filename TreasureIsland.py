@@ -30,7 +30,7 @@ if choice1 == "left": #continue in game
     if choice2 == "wait":  #game continue
         choice3 = input("A boat came by and you arrived at the island unharmed.\n"
               "There is a house with three doors. One RED, one BLUE and one YELLOW.\n"
-              "Which door do you choose? Type 'RED', 'BLUE' or 'YELLOW': ")
+              "Which door do you choose? Type 'RED', 'BLUE' or 'YELLOW': ").lower()
         if choice3 == "red":
             print("You fell in to a lava pit. GAME OVER")
         elif choice3 == "yellow":
